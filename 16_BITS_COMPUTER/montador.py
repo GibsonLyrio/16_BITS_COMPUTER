@@ -405,7 +405,7 @@ montar(STA_addr, 0x70c0, 'addr')
 # ^^ Adcione novos comando a partir daqui ^^ #
 
 
-with open("teste.hex", "w") as arquivo:
+with open("16_BITS_COMPUTER/teste.hex", "w") as arquivo:
     for x in lista:
         arquivo.write(f'0{tipo}{x}\n')
 

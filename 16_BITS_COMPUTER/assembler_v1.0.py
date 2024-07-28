@@ -279,7 +279,7 @@ print(f'\033[34mTamanho: {len(app)}\033[m')
 # print(f'\n\033[7;33m {livre} b livre(s) de {memory} b \033[m\n')
 print(f'\n\033[7;33m {(livre/1000):.2f} kb livre(s) de {(memory/1000):.2f} kb \033[m\n')
 
-with open("executavel.hex", "w") as arquivo:
+with open("16_BITS_COMPUTER/executavel.hex", "w") as arquivo:
     for x in exe:
         arquivo.write(f'0{form}{x}\n')
 
